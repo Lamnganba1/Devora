@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Devora - Professional Responsive Website</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">Devora</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home container">
+      <h1>Welcome to Devora</h1>
+      <p>Your professional, modern, and responsive website solution.</p>
+      <a href="#services" class="btn-primary">Explore Our Services</a>
+    </section>
+
+    <section id="services" class="services container">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <article class="service-card">
+          <h3>Web Design</h3>
+          <p>Creating visually stunning, user-friendly designs tailored to your brand.</p>
+        </article>
+        <article class="service-card">
+          <h3>Development</h3>
+          <p>Building responsive, high-performance websites with the latest technologies.</p>
+        </article>
+        <article class="service-card">
+          <h3>SEO Optimization</h3>
+          <p>Improving your website’s ranking to increase visibility and traffic.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item"><img src="images/p1.jpg" alt="Project 1"> <p>Project 1</p> </div>
+        <div class="portfolio-item"><img src="images/p2.jpg" alt="Project 2"> <p>Project 2</p> </div>
+        <div class="portfolio-item"><img src="images/p3.jpg" alt="Project 3"> <p>Project 3</p> </div>
+        <div class="portfolio-item"><img src="images/p4.jpg" alt="Project 4"> <p>Project 4</p> </div>
+      </div>
+    </section>
+
+    <section id="team" class="team container">
+      <h2>Meet the Team</h2>
+      <div class="team-members">
+        <article class="team-member">
+          <img src="images/1.jpg" alt="Member 1" />
+          <h3>Lamnganba singha</h3>
+          <p>Lead Designer</p>
+        </article>
+        <article class="team-member">
+          <img src="images/2.jpg" alt="Member 2" />
+          <h3>Priyatosh Dey</h3>
+          <p>Senior Developer</p>
+        </article>
+        <article class="team-member">
+          <img src="images/3.jpg" alt="Member 3" />
+          <h3>Subhrajit Bhattacharjee</h3>
+          <p>SEO Specialist</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        
+        <button type="submit" class="btn-primary">Send</button>
+      </form>
+      <p class="success-message" style="display:none;">Thanks for reaching out! We will get back to you soon.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Devora. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to external JS -->
+  <script src="js/scripts.js" defer></script>
+</body>
+</html>
